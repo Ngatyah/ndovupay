@@ -6,7 +6,7 @@ import { FiGlobe } from "react-icons/fi";
 
 const Menu = () => {
   return (
-    <div className="flex flex-col items-start mb-2 gap-2">
+    <div className="card__theme  bg-darkBgAlt h-[100vh] flex-col items-start mb-2 gap-2">
       <button className="flex justify-start gap-4 items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-200">
         <BiHomeAlt size={25} />
         <h2> Home</h2>

@@ -6,8 +6,8 @@ import shoppingImg from "../../../assets/shopping.jpg";
 
 const Dashboard = () => {
   return (
-    <div className="card__theme h-100vh bg-darkBgAlt">
-      <h2 className="font-3xl mb-4 mx-2 font-bold">
+    <div className="card__theme h-100vh">
+      <h2 className=" hidden md:block font-3xl my-4 text-2xl mx-2 font-bold">
         Hi <span className="text-neutralGold">Austine</span> !
       </h2>
       <div className="flex order-1 md:order-0 flex-wrap justify-center md:justify-start h-[40%]">
@@ -51,7 +51,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-      <div className="flex mt-6 order-0 md:order-1  h-[40%]">
+      <div className="flex md:mt-6 order-0 md:order-1  h-[40%]">
         <div className="card__theme bg-[#323C40] w-[100%] md:w-[30%] text-[#fff] m-2">
           <div className="flex gap-4 my-2 text-neutralGold self-center">
             <AiFillGift />

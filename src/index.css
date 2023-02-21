@@ -3,7 +3,7 @@
 @tailwind utilities;
 
   .page__theme{
-    @apply flex flex-col  md:grid grid-cols-5  gap-6 py-4 min-h-screen  text-bgDefault  bg-darkBgDefault;
+    @apply flex flex-col  md:grid grid-cols-5  gap-6  min-h-screen  text-bgDefault  bg-darkBgDefault;
   }
 
     .card__theme{
