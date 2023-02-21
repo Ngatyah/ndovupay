@@ -1,6 +1,7 @@
 import React from "react";
 import { FiHelpCircle } from "react-icons/fi";
 import { MdNotificationsNone, MdOutlineAccountCircle } from "react-icons/md";
+import MobileNav from "./MobileNavBar";
 
 const NavBar = () => {
   return (
@@ -13,14 +14,15 @@ const NavBar = () => {
           <FiHelpCircle size={28} />
           <h2 className="text-[#000]"> Help</h2>
         </div>
-        <div className="">
+        <div className="hidden md:flex">
           <MdNotificationsNone size={28} />
         </div>
-        <div className="flex gap-2">
+        <div className="hidden md:flex gap-2">
           <MdOutlineAccountCircle size={28} />
           Austine
         </div>
       </div>
+      <MobileNav />
     </div>
   );
 };
