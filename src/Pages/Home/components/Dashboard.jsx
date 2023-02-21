@@ -31,6 +31,28 @@ const Dashboard = () => {
               <h2>Accept & Reject</h2>
             </div>
           </div>
+          <div className="card__theme bg-[#FFB600] m-2">
+            <div className="flex gap-4 justify-between mx-2">
+              <MdHealthAndSafety size={25} />
+              <div className="bg-[#8FE1A1] text-neutralDark round-full p-2">
+                2
+              </div>
+            </div>
+            <div className="mt-4 px-2">
+              <h2>My Transactions</h2>
+            </div>
+          </div>
+          <div className="card__theme bg-[#FFB600] m-2">
+            <div className="flex gap-4 justify-between mx-2">
+              <MdHealthAndSafety size={25} />
+              <div className="bg-[#8FE1A1] text-neutralDark round-full p-2">
+                2
+              </div>
+            </div>
+            <div className="mt-4 px-2">
+              <h2>Invite and Earn</h2>
+            </div>
+          </div>
         </div>
       </h2>
     </div>
