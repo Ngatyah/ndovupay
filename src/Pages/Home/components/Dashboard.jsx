@@ -19,7 +19,7 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="mt-4 px-2">
-            <h2 className="">Join & Pay Transaction</h2>
+            <h2 className="text-darkBgAlt font-bold">Join & Pay Transaction</h2>
           </div>
         </div>
 
@@ -30,15 +30,15 @@ const Dashboard = () => {
               0
             </div>
           </div>
-          <div className="mt-4 px-2">
-            <h2>Accept & Reject</h2>
+          <div className="mt-4 px-2 font-bold">
+            <h2>Accept | Reject</h2>
           </div>
         </div>
         <div className="card__theme bg-[#1E191B] text-darkBgAlt w-[40%] md:w-[15%] m-2">
           <div className="flex  my-4 gap-4 justify-between mx-2">
             <AiOutlineCreditCard size={28} />
           </div>
-          <div className="mt-4 px-2 ">
+          <div className="mt-4 px-2 font-bold">
             <h2>My Transactions</h2>
           </div>
         </div>
@@ -46,7 +46,7 @@ const Dashboard = () => {
           <div className="flex gap-4 justify-between mx-2 my-4">
             <GiCarWheel size={28} />
           </div>
-          <div className="mt-4 px-2">
+          <div className="mt-4 px-2 font-bold">
             <h2>Invite and Earn</h2>
           </div>
         </div>
